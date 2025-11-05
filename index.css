@@ -1,0 +1,420 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+    overflow: hidden;
+    position: fixed;
+    top: 1%;
+    width: 95%;
+    z-index: 9999;
+  }
+                  
+  .menu a {
+    float: left;
+    text-decoration: none;
+    color: #F0FFFF;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 34px;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .menu a:hover {
+    color: #6d6d6d;
+    transform: scale(1.1); 
+  }
+
+  .centralizar {
+    text-align: center;
+    }
+
+    .animacao {
+        transition: transform 0.3s ease;
+      }
+      
+      .animacao:hover {
+        transform: scale(1.1);
+      }
+
+      .brilho {
+        filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
+      }
+
+      
+      .brilho:hover {
+        filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.5));
+      }
+
+
+      .texto {
+color:#FFFFFF;
+      }
+
+      .direita {
+        text-align: right;
+      }
+
+          h1 {
+            color: #F0FFFF;
+            text-align: center;
+            padding: 14px 16px;
+            font-size: 50px;
+            transition: transform 0.3s ease, color 0.3s ease;
+            filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
+          }
+
+
+
+.imagem1 {
+  background-image: url("imagens/prismamelhor.jpeg");
+}
+
+.imagem2 {
+  background-image: url("imagens/Matthew_Bellamy.jpg");
+}
+
+.imagem3 {
+  background-image: url("imagens/Christopher_Wolstenholme.jpg");
+}
+
+.imagem4 {
+  background-image: url("imagens/Dominic_Howard.jpg");
+}
+
+
+
+
+
+  .poucadireita {
+    right: 3%;
+  }
+
+  .poucaesquerda {
+    left: -5%;
+  }
+
+  .fundo {
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    position: relative;
+    padding: 20px;
+  }
+  
+  .fundotexto {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    max-width: 90vw;
+    font-size: 1.1em;
+    line-height: 1.6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+
+  .adesivo {
+    position: fixed; 
+    right: 1%;
+    top: 40%; /* centraliza na vertical */
+    transform: translateY(-50%); /* exatamente ao centro vertical */
+    width: 300px; 
+}
+  
+.adesivo2 {
+  position: fixed; 
+  right: 1%;
+  top: 53%; 
+  transform: translateY(-50%); 
+  width: 300px; 
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+  }
+  a:active {
+  color: rgb(255, 255, 255);
+  }
+  a:visited {
+  color: rgb(255, 255, 255);
+  }
+  
+
+.proporcao{
+  width: 100px;
+  height: 100px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.social h1 {
+  margin-left: 10px;
+}
+
+.imagem5::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("imagens/espacofogo.gif");
+  background-size: cover;
+  background-position: center;
+  transform: scale(-1, -1);
+  z-index: -1;
+}
+
+.imagem6 {
+  background: 
+  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+  url("imagens/espacofogo.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.imagem7::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("imagens/espacofogo.gif");
+  background-size: cover;
+  background-position: center;
+  transform: scale(1, -1);
+  z-index: -1;
+}
+
+.imagem8::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("imagens/espacofogo.gif");
+  background-size: cover;
+  background-position: center;
+  transform: scale(-1, 1);
+  z-index: -1;
+}
+
+
+.supertexto {
+  position: absolute;
+  font-size: 25px;
+  color:#FFFFFF;
+  padding: 5%;
+  }
+
+  .textinho {
+    position: absolute;
+    font-size: 19px;
+    color:#FFFFFF;
+    padding: 5%;
+    }
+
+
+    .textodisco {
+      font-size: 30px;
+      color:#FFFFFF;
+      }
+    
+      .container {
+        display: flex;
+        flex-direction: row;
+        gap: 20px; /* Espaçamento lateral */
+        flex-wrap: wrap; /* Quebra linha se não couber */
+      }
+
+      .embed1 { 
+        position: relative; 
+  left: 0%;
+  margin-top: 5%;
+      }
+
+      .embed2 { 
+        position: relative;
+  right: 0%;
+  margin-top: 5%;
+      }
+
+      .embed3 { 
+        position: relative; 
+  left: 0%;
+  margin-top: 8%;
+      }
+
+      .embed4 { 
+        position: relative; 
+  right: 0%;
+  margin-top: 8%;
+      }
+
+      .embed5 { 
+        position: relative; 
+  left: 0%;
+  margin-top: none;
+      }
+
+      .embed6 { 
+        position: relative;
+  right: 0%;
+  margin-top: none;
+      }
+
+      .embed7 { 
+        position: relative; 
+  left: 0%;
+  margin-top: 8%;
+      }
+
+      .embed8 { 
+        position: relative; 
+  right: 0%;
+  margin-top: 8%;
+      }
+
+      .embed9 { 
+        position: relative; 
+  left: 0%;
+  margin-top: none;
+      }
+
+      .embed10 { 
+        position: relative;
+  right: 0%;
+  margin-top: none;
+      }
+
+      .embed11 { 
+        position: relative; 
+  left: 0%;
+  margin-top: 8%;
+      }
+
+      .embed12 { 
+        position: relative; 
+  right: 0%;
+  margin-top: 8%;
+      }
+
+      .embed13 { 
+        position: relative; 
+  left: 0%;
+  margin-top: -8px;
+      }
+
+      .embed14 { 
+        position: relative;
+  right: 0%;
+  margin-top: -8px;
+      }
+
+      main {
+        position: fixed;
+        left: 40%;
+        right: 40%;
+        bottom: -45%;
+        width: 20%;
+        height: 50%;
+    
+        border: 2px solid black;
+        border-radius: 45px 45px 0 0;
+        background-color: #000;
+    
+        display: flex;
+        flex-direction: column; 
+        gap: 8px; 
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    
+        transition: bottom 0.3s;
+    }
+    main:hover {
+        bottom: -5px;
+    }
+    .barra {
+        width: 50%;
+        height: 1.5%;
+        bottom: 3%;
+        background: rgb(97, 97, 97);
+        border-radius: 3px;
+    }
+
+         .flip-box {
+          text-align: center;
+        background-color: black;
+        width: center;
+        height: center;
+        position: absolute;
+        top: 50%;
+        border-radius: 50px;
+        perspective: 1000px; /*remover caso não queira efeito 3d*/
+      }
+
+	/* Container necessário pra posicionar os dois lados */
+      .flip-box-inner {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+
+
+	/* flip horizontal ao passar o cursor */
+      .flip-box:hover .flip-box-inner {
+        transform: rotateY(180deg);
+      }
+
+	
+	/* posição do lado da frente e o de trás */
+      .flip-box-front, .flip-box-back {
+        position: absolute;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+
+	
+	/* estilize o lado da frente (funciona se não tiver imagem)*/
+      .flip-box-front {
+        background-color: #bbb;
+        color: black;
+      }
+
+	/* estilize o lado de trás */
+      .flip-box-back {
+        background-color: black;
+        color: white;
+        transform: rotateY(180deg);
+        position: absolute;
+        border-radius: 50px;
+        top: 45%;
+        left: 10%;
+        right: 10%;
+        bottom: 10%;
+      }   
+
+      .imagemdisco {
+        width: 440px;
+        position: absolute;
+        border-radius: 50px;
+        left: 10%;
+        top: 140%;
+        border-color: white;
+        border-style: ridge;
+      }
