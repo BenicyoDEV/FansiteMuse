@@ -3,6 +3,8 @@
 Projeto desenvolvido para um trabalho da **ETEC de Poá**, como parte dos estudos de **HTML e CSS**.  
 A página homenageia a banda **Muse**, apresentando suas principais informações e conteúdos em um formato visual e organizado.
 
+**📅 Data de produção: Maio de 2025**
+
 ---
 
 ## 💻 Sobre o Projeto
